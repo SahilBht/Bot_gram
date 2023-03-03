@@ -13,8 +13,22 @@ This project was created mainly to teach myself about web automation using pytho
 * Chrome Web driver
 
 ## Installation
-This project requires [Chrome Driver tool](https://chromedriver.chromium.org/) to be installed.
+To install the Instagram bot, you will need to follow these steps:
 
-Clone the repository to a directory of your choosing
+Clone the repository to your local machine
+1. Install Python 3.x if you haven't already
+2. Install the required Python libraries using pip: pip install -r requirements.txt
+3. Download the appropriate webdriver (chromedriver or geckodriver) and add to PATH
+4. Create a config.py file and add your Instagram account credentials and bot settings
 
-## 
+## Features
+* Login to Instagram using user credentials
+* Follow, like, comment, and message other users
+* Multi-threading and other optimizations to improve performance
+* Error-handling and exception-handling mechanisms to minimize downtime
+
+## Usage
+To use the Instagram bot, simply run the bot.py file using Python. This will start the bot and it will perform the actions specified in the config.py file. You can also modify the config file to adjust the bot's settings and actions.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
