@@ -127,7 +127,7 @@ def Direct_message(Msg_text):
 
 
 #function_call
-login("bot_grammer001", "Bot_grammer001p") #give the username as "bot_grammer001" and password as "Bot_grammer001p"
+login(config.user, config.pass) #give the username as "bot_grammer001" and password as "Bot_grammer001p"
 follow_like_comment(3)  #The number of posts to interact with = 3
 
 # bot_chand69
